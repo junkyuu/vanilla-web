@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Form Validator Zunkyu</title>
 </head>
 <body>
-    
+    <div class= "container">
+        <form id = "form" class="form">
+            <h2>Register With Us</h2>
+            <div class = "inputWrapper">
+                <div class= "inputName">Username</div>
+                <input type="text" id="username" placeholder="Enter username">
+                <small>?</small>
+            </div>
+            <div class = "inputWrapper">
+                <div class= "inputName">Email</div>
+                <input type="text" id="email" placeholder="Enter email">
+                <small>?</small>
+            </div>
+            <div class = "inputWrapper">
+                <div class= "inputName">Password</div>
+                <input type="password" id="password" placeholder="Enter password">
+                <small>?</small>
+            </div>
+            <div class = "inputWrapper">
+                <div class= "inputName">Confirm Password</div>
+                <input type="password" id="confirmPassword" placeholder="Enter password again">
+                <small>?</small>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
